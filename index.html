@@ -3,11 +3,27 @@
     <head>
         <meta charset="UTF-8">
         <title>Recipes</title>
+        <link rel="stylesheet" href="./style.css">
     </head>
     <body>
-        <h1>Odin Recipes</h1>
-        <p>Recipe 1: <a href="./recipes/shawarma.html" rel="noreferrer">Chicken Shawarma</a></p>
-        <p>Recipe 2: <a href="./recipes/pizza.html" rel="noreferrer">Pizza</a></p>
-        <p>Recipe 3: <a href="./recipes/beef-quesadilla.html" rel="noreferrer">Beef Quesadilla</a></p>
+        <h1 class="title title-page">Odin Recipes</h1>
+
+        <div class="flex-container"> 
+            <div class="title-page-image-format recipe-one">
+                <a href="./recipes/shawarma.html" rel="noreferrer"><img src="recipes/shawarma.jpg" class="title-image" alt="picture of Shawarma" height="400" width="400"></a>
+                <h2 class="recipes">Shawarma Recipe</h2>
+            </div>
+
+            <div class="title-page-image-format recipe-two">
+                <a href="./recipes/pizza.html" rel="noreferrer"><img src="recipes/pizza.jpg" class="title-image" alt="picture of Pizza" height="400" width="400"></a>
+                <h2 class="recipes">Pizza Recipe</h2>
+            </div>
+
+            <div class="title-page-image-format recipe-three">
+                <a href="./recipes/beef-quesadilla.html" rel="noreferrer"><img src="recipes/beef-quesadillas.jpg" class="title-image" alt="picture of a Beef Quesadilla" height="400" width="400"></a>
+                <h2 class="recipes">Beef Quesadilla Recipe</h2>
+            </div>
+        </div>
+
     </body>
 </html>
